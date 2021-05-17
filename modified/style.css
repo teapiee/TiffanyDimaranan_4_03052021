@@ -709,17 +709,18 @@ p {
     margin: auto auto 3rem auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
+h2,h4 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
+
+h3,h5 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
 
 .med-width-whitespace {
     max-width: 800px;
