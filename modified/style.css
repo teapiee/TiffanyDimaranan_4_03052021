@@ -654,6 +654,44 @@ a {
     color: #575757!important;
 }
 
+.imgtexte{ 
+    font-size:22px; 
+    text-align: center;
+    width:63%;
+    font-weight:500;
+}
+@media (max-width: 400px) {
+    .imgtexte{
+        width:100%;
+    }
+}
+
+.imgtexte2{
+    width:45%;
+}
+@media (max-width: 400px) {
+    .imgtexte2 {
+        width:70%;
+    }
+}
+
+.imgtextecenter{
+    margin-bottom:1rem;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.citation{
+    font-size:18px;
+    font-style:italic;
+    font-weight:500;
+}
+.citation-auteur{
+    font-size:15px;
+    font-weight:300;
+}
+
 .container {
     max-width: 1000px;
 }
